@@ -5,6 +5,7 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
+    "eslint": "^8.42.0",
     "nodemon": "^2.0.22"
   },
   "name": "fsweb-s13g4-node-api-project-4",
@@ -13,7 +14,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server":"",
+    "server": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
