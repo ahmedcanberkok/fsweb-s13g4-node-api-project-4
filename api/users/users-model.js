@@ -17,7 +17,7 @@ function getAllUsers(){
 };
 
 function insert(user){
-    user_id = generateId ();
+    user.user_id = generateId ();
     allUsers.push(user);
     return user;
 }
